@@ -1,6 +1,12 @@
 body { 
     font-family: 'Spinnaker', sans-serif;
 }
+header img {
+    width: 100%;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
 .none { 
     display:none;
 }
@@ -10,7 +16,7 @@ body {
 }
 #calender_section { 
     width:700px; 
-    margin:30px auto 0;
+    margin:40px auto;
 }
 #calender_section h2 { 
     background-color:#F3F4F0;  
@@ -64,7 +70,8 @@ input[type="text"]
 }
 #calender_section_bot { 
     width:100%; 
-    margin-top:20px; 
+    margin-top:20px;
+    margin-bottom: 60px;
     float:left; 
     border-left:1px solid #ccc; 
     border-bottom:1px solid #ccc;
@@ -100,6 +107,17 @@ input[type="text"]
 }
 .light_sky { 
     background-color:#A27E80 !important;
+}
+
+footer {
+    clear: both;
+    background-color: #D6BCBC;
+    bottom: 0;
+    
+}
+
+footer p {
+    text-align: center;
 }
 
 /*========== Hover Popup ===============*/

@@ -11,9 +11,18 @@
 </head>
 <body>
 
-<div id="calendar_div">
-	<?php echo getCalender(); ?>
-</div>
+    <header>
+        <img src="heroImage.png" alt="Floral Border">
+    </header>
+
+    <div id="calendar_div">
+	   <?php echo getCalender(); ?>
+    </div>
+    
+    <footer>
+        <p>Designed and coded by Team Alpha</p>
+        <p>&copy; 2016</p>
+    </footer>
 
 </body>
 </html>
